@@ -1,0 +1,65 @@
+.DonationMMFH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto; 
+    margin-top: 2%;
+}
+.DonationMMFH h2{
+    color: #ac3939;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.DonationMMFH p{
+  
+    color: gray;
+    font-weight: 500;
+    margin-top: -2%;
+    
+
+}
+.DonationMMFH-N {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto; 
+    margin-top: 3%;
+}
+.DonationMMFH-N h2{
+    color: #ac3939;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.DonationMMFH-N p{
+  
+    color: gray;
+    font-weight: 500;
+    margin-top: -2%;
+   
+
+}
+@media (max-width: 768px) {
+    .DonationMMFH{
+      width: 100%;
+    }
+    .DonationMMFH p{
+        text-align: center;
+    
+    }
+    .DonationMMFH-N{
+        width: 100%;
+      }
+      .DonationMMFH-N p{
+          text-align: center;
+      
+      }
+   
+
+  }
+  

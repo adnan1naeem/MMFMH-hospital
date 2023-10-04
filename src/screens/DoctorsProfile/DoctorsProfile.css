@@ -1,0 +1,53 @@
+
+.Docotor-Details img{
+    height: 35vh;
+    width: 25%;
+}
+.with-Doc{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Docotor-Details h1{
+    color: #993333;
+    font-weight: 700;
+}
+.Docotor-Details h2{
+    color: #993333;
+    font-size: 25px;
+    font-weight: 600;
+   
+}
+
+.Docotor-Details h1{
+    color: #993333;
+    font-weight: 700;
+}
+.Docotor-Details p{
+    display: flex;
+    text-align: center;
+    color: grey;
+    font-weight: 500;
+    width: 50%;
+    font-size: 16px;
+   
+}
+
+.Docotor-Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 14%;
+    margin-top: 3%;
+}
+@media (max-width: 768px){
+    .Docotor-Details p{
+        width: 100%;
+    }
+    .Docotor-Details img{
+    
+        width: 80%;
+    }
+}

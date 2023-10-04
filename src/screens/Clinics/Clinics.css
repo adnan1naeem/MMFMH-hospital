@@ -1,0 +1,98 @@
+.clinics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 1%;
+}
+.subclinics-1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+}
+.eye-clicins{
+    display: flex;
+    flex-direction: row;
+    gap:2%
+}
+.otherclicnics{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 0.8%;
+}
+.AboutClinics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto; 
+    margin-top: 2%;
+    margin-bottom: 14%;
+}
+.AboutClinics h2{
+    color: #ac3939;
+    font-size: 25px;
+    font-weight: 700;
+
+    
+}
+.AboutClinics p{
+    margin-top: -0.5%;
+    color: grey;
+    font-weight: 500;
+
+}
+.eye-clicins-1{
+    height: 200px;
+}
+.eye-clicins-2{
+    height: 200px;
+}
+.otherclicnics-1{
+    height: 200px;
+}
+.otherclicnics-2{
+    height: 200px;
+}
+.otherclicnics-3{
+    height: 200px;
+}
+@media (max-width: 768px) {
+    .AboutClinics{
+      width: 100%;
+    }
+    .AboutClinics p{
+        text-align: center;
+    
+    }
+    .clinics{
+        display: flex;
+        flex-direction: column;
+    }
+    .eye-clicins{
+        display: flex;
+        flex-direction: column;
+        gap: 13px
+    }
+    .eye-clicins-1{
+        height: 400px;
+    }
+    .eye-clicins-2{
+        height: 400px;
+    }
+    .otherclicnics-1{
+        height: 400px;
+    }
+    .otherclicnics-2{
+        height: 400px;
+    }
+    .otherclicnics-3{
+        height: 400px;
+    }
+
+  }
+  

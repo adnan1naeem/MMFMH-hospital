@@ -1,0 +1,69 @@
+.OurDoctors{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+.Profile{
+    display: flex;
+    padding-top: 8%;
+    padding-bottom: 3%;
+    
+}
+.Profile img{
+    width: 35%;
+    padding-left: 8%;
+    margin-top: -5%;
+    height: 50vh;
+}
+.docotr-list{
+    width: 50%;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.header-with-border {
+    position: relative; /* Needed for positioning the pseudo-element */
+    text-align: center; /* Center-align the text within the container */
+  }
+  
+  .header-with-border::before {
+    content: ""; /* Add an empty content to create the pseudo-element */
+    position: absolute;
+    top: 5%; /* Position the border below the text */
+    left: 50%; /* Move the starting point to the center of the container */
+    transform: translateX(-50%); /* Center the border horizontally */
+    width: 20%; /* Adjust the width as needed for your border */
+    height: 3px; /* Adjust the height as needed for your border */
+    background-color: #993333;
+  }
+  
+  @media (max-width: 768px) {
+    .header-with-border{
+        margin-top: 5%;
+    }
+    .Profile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    
+        
+    }
+    .Profile img{
+        width: 80%;
+        padding-left: 0;
+        height: auto;
+        
+    }
+    .docotr-list{
+        width: 90%;
+        padding-bottom: 5%;
+        
+    }
+    .OurDoctors{
+        height: 120vh;
+    }
+
+  }

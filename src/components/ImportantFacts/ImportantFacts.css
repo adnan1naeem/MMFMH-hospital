@@ -1,0 +1,90 @@
+.import-fact{
+    background: linear-gradient(to bottom, #ffffff 40%, #808080 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+   
+}
+.importfacts{
+    color: grey;
+     padding-top: 3%;
+     font-size: 32px;
+ 
+ }
+.overlay{   
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    margin-top: 4%;
+    gap: 5%
+}
+.main-overlay{
+    width: 40%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+
+}
+.estimated{
+  
+    background-color: #d9d9d9;
+    height: 260px;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 4%;
+    padding-top: 12%;
+    font-size: 18px;
+}
+.home-numbers{
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    gap:10%;
+    flex-wrap: wrap;
+    background-color: #d9d9d9;
+    margin-top: 5%;
+    height: 350px;
+}
+.home-number-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-number-item h1{
+    color: #808080;
+}
+.home-number-item p{
+    color: #808080;
+}
+@media (max-width: 880px) {
+    .overlay{   
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .main-overlay{
+        width: 100%;
+
+    }
+    .import-fact{
+        padding-bottom: 15%;
+    }
+    .home-numbers{
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .home-number-item{
+        padding-top: 3%;
+        
+
+    }
+   
+  
+
+}

@@ -1,0 +1,42 @@
+.Doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 5%;
+}
+.DoctosImage{
+    height: 160px;
+    width: 180px;
+}
+.Doctors h3{
+    color: #ac3939;
+    font-size: 25px;
+    font-weight: 600;
+}
+.Doctors p{
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.docotormad{
+    margin-top: -6%;
+}
+@media (max-width: 870px) {
+    .Doctors{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .docotormad{
+        margin-top: 0;
+    }
+    
+  }

@@ -1,0 +1,87 @@
+
+.All-Review{
+   width: 45%;
+   margin-top: 5%;
+
+   
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+  
+  .text-over {
+    position: absolute;
+    top: 44%; /* Position the text at the vertical center of the container */
+    left: 68%; /* Position the text at the horizontal center of the container */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    padding: 10px; /* Add padding around the text */
+    border-radius: 5px; /* Add rounded corners to the text container */
+    text-align: center; /* Center-align the text */
+    width: 50%;
+  
+    
+  }
+  .text-over p{
+    font-size: 13px;
+  }
+  .image-over {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 25%; /* Make the image cover the entire container */
+  
+  }
+  @media (max-width: 1560px){
+    .text-over p{
+        font-size: 12px;
+        
+      }
+  }
+  @media (max-width: 1330px){
+    .text-over p{
+        font-size: 8px;
+        margin-top: -4%;
+      }
+  }
+  @media (max-width: 990px){
+    .All-Review{
+        width: 65%;
+     
+        
+     }
+  }
+  @media (max-width: 685px){
+    .All-Review{
+        width: 100%;
+        
+     }
+     .text-over {
+       width: 50%;
+       
+      }
+      .text-over p {
+        font-size: 10px;
+    
+        
+       }
+  }
+  @media (max-width: 435px){
+   
+      .text-over p {
+        margin-top: -35%;
+        
+       }
+       
+       .text-over p {
+        font-size: 6px;
+
+    
+        
+       }
+  }

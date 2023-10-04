@@ -1,0 +1,116 @@
+.Header {
+  margin-left: 40%;
+  display: flex;
+  flex-direction: row; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: space-between; /* Center vertically */
+  padding-top: 4%;
+  
+}
+.logo-text h1{
+  color:  #bf4040;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: -5.5%;
+}
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.Logo {
+    height: 170px;
+
+  }
+.Header-right{
+  margin-right: 3%;
+}
+.icons{
+  color:  #bf4040;
+  margin-left: 36%;
+  margin-top: 15%;
+  display: flex;
+  gap: 6%
+}
+.s-icon{
+  font-size: 24px;
+  margin-bottom: 20%;
+}
+.Header-appointments{
+  margin-left: -18%;
+  display: flex;
+  gap: 6%;
+  margin-top: 6%;
+}
+.Header-appointments p{
+  color:  #bf4040;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+/* SearchField.css */
+.search-field {
+  position: relative;
+  display: inline-block;
+  margin-top: 0%;
+}
+
+.search-input {
+  padding: 10px 30px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  width: 180px;
+  height: 35px;
+  color:  #bf4040;
+}
+.search-input::placeholder {
+  color: #bf4040; /* Customize the color here */
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color:  #bf4040;
+}
+@media screen and (max-width: 768px){
+  .Header {
+  
+    display: flex;
+    flex-direction: column;
+    /* margin-left: %; */
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .Header-right{
+    width: 100%;
+  }
+  .Header-appointments{
+     margin-left: 0;
+  }
+  .icons{
+    margin-top: -1%;
+  }
+/* 
+  .Logo {
+    height: 130px;
+   margin-left: -50%;
+
+  } */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .Header{
+    margin-left: 10%;
+  }
+
+}
+
+  

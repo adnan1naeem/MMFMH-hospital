@@ -1,0 +1,33 @@
+.AboutMMFH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto; 
+    margin-top: 4%;
+    margin-bottom: 14%;
+}
+.AboutMMFH h2{
+    color: #ac3939;
+    font-size: 28px;
+    font-weight: 700;
+}
+.AboutMMFH p{
+    margin-top: 3%;
+    color: grey;
+    font-weight: 500;
+
+}
+@media (max-width: 768px) {
+    .AboutMMFH{
+      width: 100%;
+    }
+    .AboutMMFH p{
+        text-align: center;
+    
+    }
+   
+
+  }
+  
