@@ -2,26 +2,21 @@ import React, { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { GrPrevious, GrNext } from "react-icons/gr";
-
 import slider_1 from "../../Asset/Landing page/hospital main banner.jpg";
-
 function Slider() {
   const slider = [slider_1];
   const [isHovered, setIsHovered] = useState(false);
   const swiperRef = useRef(null);
-
   const goNext = () => {
     if (swiperRef.current && swiperRef.current.swiper) {
       swiperRef.current.swiper.slideNext();
     }
   };
-
   const goPrev = () => {
     if (swiperRef.current && swiperRef.current.swiper) {
       swiperRef.current.swiper.slidePrev();
     }
   };
-
   useEffect(() => {
     const interval = setInterval(() => {
       if (swiperRef.current && swiperRef.current.swiper) {
