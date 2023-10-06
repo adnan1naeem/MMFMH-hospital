@@ -116,7 +116,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Ghulam Yaseen.png"),
     name: "Dr. Ghulam Yaseen",
-    edu: "MBBS, FCPS",
+    edu: "MBBS, DCH",
     disease: "Child Specialist",
     experince: "30 Years",
     slider:
