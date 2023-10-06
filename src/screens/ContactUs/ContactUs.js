@@ -22,9 +22,9 @@ const ContactUs = () => {
           alt="ContactUsImage"
         />
         <div className="ContactMMFH">
-          <h2>Contact Us</h2>
+          <h2 style={{ style: "#ac3939" }}>Contact Us</h2>
           <div className="ContactMMFHNumbersAll" style={{ marginTop: "5%" }}>
-            <h3>Hospital/Emergenacy</h3>
+            <h3>Hospital/Emergency</h3>
             <p>042-35451891-2</p>
           </div>
           <div className="ContactMMFHNumbers">
@@ -46,22 +46,22 @@ const ContactUs = () => {
               textAlign: "center",
             }}
           >
-            <h2>Follow Us </h2>
+            <h2 style={{ color: "grey" }}>Follow Us </h2>
             <div className="iconsMain">
               <a
                 href="https://www.facebook.com/people/Mian-Muhammad-Fazal-Memorial-Hospital/100090593606500/?mibextid=V3Yony"
-                style={{ color: "#ac3939" }}
+                style={{ color: "black" }}
               >
                 <FaFacebookSquare className="ss-icon" />
               </a>
               <a
-                style={{ color: "#ac3939" }}
+                style={{ color: "black" }}
                 href="https://www.instagram.com/mmfmh_maraka/"
               >
                 <FaInstagramSquare className="ss-icon" />
               </a>
               <a
-                style={{ color: "#ac3939" }}
+                style={{ color: "black" }}
                 href="https://www.linkedin.com/company/mian-muhammad-fazal-memorial-hospital/"
               >
                 <FaLinkedin className="ss-icon" />

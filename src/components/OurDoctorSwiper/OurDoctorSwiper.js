@@ -30,7 +30,7 @@ function SliderDoctor() {
           swiperRef.current.swiper.slideNext();
         }
       }
-    }, 10000);
+    }, 1000000);
 
     return () => {
       clearInterval(interval);
@@ -83,6 +83,7 @@ function SliderDoctor() {
           prevEl: ".swiper-button-prev",
         }}
         ref={swiperRef}
+        speed={2000}
       >
         {data?.map((item, index) => (
           <SwiperSlide key={index}>

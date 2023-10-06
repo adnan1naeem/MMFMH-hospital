@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     width: 70%;
     margin: 0 auto; 
@@ -17,11 +18,10 @@
     width: 44%;
     display: flex;
     margin-top: 3%;
-    gap: 14%;
-   
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
     
-    
+ 
 }
 .ContactMMFHNumbersAll{
     display: flex;
@@ -29,16 +29,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 .ContactMMFHNumbersAll h3{
-    color: #ac3939;
+    color: grey;
     font-size: 25px;
     font-weight: 700;
 }
 .ContactMMFH p{
     margin-top: 2%;
     color: gray;
-    font-weight: 500;
+  
     
 
 }
@@ -47,9 +48,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10%;
-    color:  #ac3939;
+    justify-content: center;
+    color:  black;
     margin-top: 5%;
+    gap: 15%
   }
   .ss-icon{
     font-size: 30px;

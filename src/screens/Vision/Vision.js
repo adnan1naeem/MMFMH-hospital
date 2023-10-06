@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
-import VisionImage from "../../Asset/wetransfer_01-jpg_2023-09-22_1220/SAQ_6921.jpg";
+import VisionImage from "../../Asset/00.jpg";
 import "./Vision.css";
 const Vision = () => {
   return (
@@ -35,7 +35,7 @@ const Vision = () => {
             </li>
             <li>
               Enhancing range of healthcare services with a special focus on
-              mother& child care areas.
+              mother & child care areas.
             </li>
             <li>
               Providing best diagnostic facilities by joining hands with leading

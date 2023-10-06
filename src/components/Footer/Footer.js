@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import logo from "../../Asset/logo/logo.png";
-import { BsFacebook } from "react-icons/bs";
+
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import {
@@ -14,10 +14,17 @@ const Footer = () => {
     <div className="Footer">
       <div className="Footer-content">
         <div className="footer-logo">
-          <img src={logo} alt="logo" />
+          <Link to="/home">
+            <img src={logo} alt="logo" />
+          </Link>
           {window.innerWidth >= 768 && (
             <h5
-              style={{ marginTop: "-5%", color: "#bf4040", fontWeight: "700" }}
+              style={{
+                marginTop: "-5%",
+                color: "#bf4040",
+                fontWeight: "700",
+                fontSize: "17px",
+              }}
             >
               Mian Muhammad Fazal <br /> Memorial Hospital
             </h5>
@@ -29,7 +36,7 @@ const Footer = () => {
               style={{
                 color: "#333333",
                 fontWeight: "400",
-                fontSize: "18px",
+                fontSize: "14px",
                 textDecoration: "none",
               }}
               to="/AboutMMFH"
@@ -40,7 +47,7 @@ const Footer = () => {
               style={{
                 color: "#333333",
                 fontWeight: "400",
-                fontSize: "18px",
+                fontSize: "14px",
                 textDecoration: "none",
               }}
               to="/OurServices&Clinics"
@@ -51,7 +58,7 @@ const Footer = () => {
               style={{
                 color: "#333333",
                 fontWeight: "400",
-                fontSize: "18px",
+                fontSize: "14px",
                 textDecoration: "none",
               }}
               to="/Donation"
@@ -62,7 +69,7 @@ const Footer = () => {
               style={{
                 color: "#333333",
                 fontWeight: "400",
-                fontSize: "18px",
+                fontSize: "14px",
                 textDecoration: "none",
               }}
               to="/ContactUs"
@@ -73,7 +80,7 @@ const Footer = () => {
               style={{
                 color: "#333333",
                 fontWeight: "400",
-                fontSize: "18px",
+                fontSize: "14px",
                 textDecoration: "none",
               }}
               to="/JoinUs"
@@ -86,9 +93,9 @@ const Footer = () => {
               style={{
                 color: "#333333",
                 fontWeight: "400",
-                fontSize: "20px",
+                fontSize: "16px",
                 textDecoration: "none",
-                marginTop: "4%",
+                marginTop: "2%",
               }}
             >
               25KM, Multan Road, Near Maraka Village, Lahore, Pakistan |
@@ -99,7 +106,7 @@ const Footer = () => {
                 style={{
                   color: "#333333",
                   fontWeight: "400",
-                  fontSize: "20px",
+                  fontSize: "16px",
                   textDecoration: "none",
                 }}
               >
@@ -109,20 +116,20 @@ const Footer = () => {
                 style={{ color: "#333333" }}
                 href="https://www.facebook.com/people/Mian-Muhammad-Fazal-Memorial-Hospital/100090593606500/?mibextid=V3Yony"
               >
-                <FaFacebookSquare style={{ fontSize: "25px" }} />
+                <FaFacebookSquare style={{ fontSize: "22px" }} />
               </a>
               <a
                 style={{ color: "#333333" }}
                 href="https://www.instagram.com/mmfmh_maraka/"
               >
-                <FaInstagramSquare style={{ fontSize: "25px" }} />
+                <FaInstagramSquare style={{ fontSize: "22px" }} />
               </a>
               <a
                 style={{ color: "#333333" }}
                 href="https://www.linkedin.com/company/mian-muhammad-fazal-memorial-hospital/"
               >
                 {" "}
-                <FaLinkedin style={{ fontSize: "25px" }} />{" "}
+                <FaLinkedin style={{ fontSize: "22px" }} />{" "}
               </a>
             </div>
           </div>

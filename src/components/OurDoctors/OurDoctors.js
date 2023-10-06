@@ -38,9 +38,9 @@ const OurDoctors = ({ DoctorAllData }) => {
                 Learn More
               </button>
             </Link>
-            <BsFillPlayCircleFill
+            {/* <BsFillPlayCircleFill
               style={{ marginLeft: "8%", color: "#993333", fontSize: "55px" }}
-            />
+            /> */}
           </div>
         </div>
       </div>

@@ -21,11 +21,11 @@ const Facts = () => {
           <p>
             It is estimated that each year around 350,000 patients get free of
             cost medical treatment from Mian Muhammad Fazal Memorial Hospital
-            which includes free of cost supply of medicines as well. Orient
-            Electronics a part of Group of Companies is a proud donor of all
-            funds and MIT support to Mian Muhammad Fazal Memorial Hospital to
-            continue supporting poor patients and serve the community
-            timelessly.
+            which includes free of cost supply of medicines as well. <br />
+            Orient Electronics a part of Orient Group of Companies is a proud
+            donor of all funds and MIT support to Mian Muhammad Fazal Memorial
+            Hospital to continue supporting poor patients and serve the
+            community timelessly.
           </p>
         </div>
         <div className="facts-numbers">

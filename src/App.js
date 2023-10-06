@@ -21,6 +21,7 @@ import Donations from "./screens/Donations/Donations";
 import AllDoctors from "./screens/AllDoctors/AllDoctors";
 import DoctorsProfile from "./screens/DoctorsProfile/DoctorsProfile";
 import { useLayoutEffect } from "react";
+import ScrollToTop from "react-scroll-to-top";
 function App() {
   const Wrapper = ({ children }) => {
     const location = useLocation();
@@ -53,6 +54,7 @@ function App() {
           </Routes>
         </Wrapper>
       </Router>
+      <ScrollToTop smooth style={{ background: "#e6e6e6" }} />
     </div>
   );
 }

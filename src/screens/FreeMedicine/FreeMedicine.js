@@ -23,7 +23,7 @@ const FreeMedicine = () => {
             right. However, for millions of people around the world, the high
             cost of medicines remains a significant barrier to receiving
             necessary treatments. In the current time, getting free of cost
-            medicine seems impossible, To address this pressing Issue and
+            medicine seems impossible. To address this pressing Issue and
             promote equitable healthcare, we have implemented free-of-cost
             medicine initiative and ensure that essential medications are
             accessible to everyone.

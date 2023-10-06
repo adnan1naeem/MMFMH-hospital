@@ -25,8 +25,8 @@ const BloodDonations = () => {
           <p>
             MMFMH provides free of cost office spaces along with all facilities,
             utilities and hospital services absolutely free of cost to hold
-            evening clinics. For more details visit us or contact admin
-            department at 042-35451891-2
+            evening clinics. <br /> For more details visit us or contact admin
+            department at 042-35451891-2.
           </p>
         </div>
         <div className="DonationMMFH-N">
@@ -35,7 +35,7 @@ const BloodDonations = () => {
             Enroll in MMFMH blood donation program and become a blood donor to
             save lives of those in need. <br />
             For more details visit us or contact admin department at
-            042-35451891-2
+            042-35451891-2.
           </p>
         </div>
         <div className="DonationMMFH-N">
@@ -44,8 +44,9 @@ const BloodDonations = () => {
             Make a significant difference by becoming a volunteer for MMFMH and
             promote its vision and also work at the hospital as Patient
             Facilitator. In addition you can also support MMFMH in raising
-            awareness and helping raising funds as per hospital policy. For more
-            details visit us or contact admin department at 042-35451891-2
+            awareness and helping raising funds as per hospital policy. <br />
+            For more details visit us or contact admin department at
+            042-35451891-2.
           </p>
         </div>
         <div className="DonationMMFH-N" style={{ marginBottom: "15%" }}>
@@ -55,7 +56,7 @@ const BloodDonations = () => {
           </p>
 
           <a
-            style={{ color: "#bf4040" }}
+            style={{ color: "black" }}
             href="https://www.linkedin.com/company/mian-muhammad-fazal-memorial-hospital/"
           >
             <FaLinkedin className="s-icon" />

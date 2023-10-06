@@ -13,7 +13,7 @@ const Clinics = () => {
       <div>
         <img className="visionimage" src={clinic} alt="AboutImage" />
         <div className="AboutClinics">
-          <h2>OUR SERVICES & CLINICS</h2>
+          <h2 style={{ color: "#ac3939" }}>OUR SERVICES & CLINICS</h2>
           <p>
             The hospital is offering best healthcare services including fully
             functional emergency units separate for male and female patients,
@@ -24,7 +24,7 @@ const Clinics = () => {
           <h2>EYE CLINIC</h2>
           <p>
             At our state-of-the-art Eye Clinic, we are committed to providing
-            comprehensive eye care services o patients of all ages. Your vision
+            comprehensive eye care services to patients of all ages. Your vision
             is our top priority, and our team of highly specialized doctors is
             dedicated to ensuring your eye health and visual acuity.
           </p>
@@ -50,10 +50,11 @@ const Clinics = () => {
           </p>
           <h2>GASTROENTEROLOGY CLINIC </h2>
           <p>
-            Our clinic boats state-of-the-art facilities and the latest medical
-            technologies, allowing us to perform advanced diagnostic procedures
-            and treatments with precision and accuracy. We prioritize patient
-            comfort and safety throughout every step of the process.
+            Our clinic is equipped with state-of-the-art facilities and the
+            latest medical technologies, allowing us to perform advanced
+            diagnostic procedures and treatments with precision and accuracy. We
+            prioritize patient comfort and safety throughout every step of the
+            process.
           </p>
           <h2>DERMATOLOGY CLINIC</h2>
           <p>

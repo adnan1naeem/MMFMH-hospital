@@ -5,26 +5,13 @@
     text-align: center;
 
 }
-.What{
-    padding-top: 2%;
-    color: #cc6666;
-    font-size: 30px;
-    font-size: 500;
-}
-.Whatpat{
-    color: #993333;
-    font-size: 40px;
-    font-size: 600;
-}
-.whatabo{
-    color: #993333;
-    font-size: 60px;
-}
+
 .Review-component{
     display: flex;
     justify-content: space-between;
     padding-bottom: 5%;
     justify-content: center;
+
 }
 @media (max-width: 990px){
     .Review-component{

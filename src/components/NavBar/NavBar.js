@@ -28,10 +28,10 @@ const NavBar = () => {
           className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
           id="navbarNav"
         >
-          <ul className="navbar-nav aaaml-auto">
+          <ul className="navbar-nav">
             <li className="nav-item active">
               <Link className="nav-link" to="/home">
-                HOME
+                Home
               </Link>
             </li>
             <li className="nav-item dropdown">
@@ -45,7 +45,7 @@ const NavBar = () => {
                 aria-haspopup="true"
                 aria-expanded={isOpen}
               >
-                ABOUT US
+                About Us
               </a>
               <div
                 className="dropdown-menu"
@@ -53,45 +53,45 @@ const NavBar = () => {
                 style={{ zIndex: "999", background: "#e6e6e6" }}
               >
                 <Link className="dropdown-item" to="/AboutMMFH">
-                  ABOUT MMFMH
+                  About MMFMH
                 </Link>
                 <Link className="dropdown-item" to="/VisionMissionPhilosophy">
-                  VISION,MISSION &<br />
-                  PHILOSOPY
+                  Vision, Mission &<br />
+                  Philosophy
                 </Link>
                 <Link className="dropdown-item" to="/CEOMessage">
-                  CEO MESSAGE
+                  CEO Message
                 </Link>
                 <Link className="dropdown-item" to="/acts&Stats">
-                  FACTS & STATS
+                  Facts & Stats
                 </Link>
               </div>
             </li>
             <li className="nav-item active">
               <Link className="nav-link" to="/OurServices&Clinics">
-                OUR SERVICES & CLINICS
+                Our Services & Clinics
               </Link>
             </li>
             <li className="nav-item active">
               <Link className="nav-link" to="/AllDoctors">
-                OUR DOCTORS
+                Our Doctors
               </Link>
             </li>
-          </ul>
-          <ul className="navbar-nav ml-auto second-navbar">
+            {/* </ul> */}
+            {/* <ul className="navbar-nav ml-auto second-navbar"> */}
             <li className="nav-item active">
               <Link className="nav-link" to="/FreeMedicine">
-                FREE MEDICINES
+                Free Medicines
               </Link>
             </li>
             <li className="nav-item active">
               <Link className="nav-link" to="/ContactUs">
-                CONTACT US
+                Contact Us
               </Link>
             </li>
             <li className="nav-item active">
               <Link className="nav-link" to="/JoinUs">
-                JOIN US
+                Join Us
               </Link>
             </li>
           </ul>

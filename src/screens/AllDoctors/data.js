@@ -18,9 +18,9 @@ export const data = [
   },
   {
     image: require("../../Asset/Drnewimages/Dr. Sana Malik.jpeg"),
-    name: "Dr Sana Malik",
+    name: "Dr. Sana Malik",
     edu: "MBBS FCPS Medicine (R)",
-    disease: "Diabetes, Hypertension, liver and stomach diseases",
+    disease: "Diabetes, Hypertension, Liver and Stomach Diseases",
     experince: "8 Years",
     slider:
       "Experienced in monitoring patient condition, maintaining accurate patient documentation and dispensing medication to improve patient’s health. Hard-working, pro-active, and ambitious medical professional with expertise in Diabetes, Hypertension, Liver and Stomach diseases.",
@@ -87,7 +87,7 @@ export const data = [
 
   {
     image: require("../../Asset/Drnewimages/Dr. Waqas.jpeg"),
-    name: "Dr Muhammad Waqas ",
+    name: "Dr. Muhammad Waqas ",
     edu: "M.B.B.S, FSPS 1 ,FCPS ORTHOPAEDICS,FCPS (Hand Surgery)",
     disease: "Orthopedics",
     experince: "13 Years",
@@ -102,8 +102,8 @@ export const data = [
   },
   {
     image: require("../../Asset/Drnewimages/Dr. Saad.jpeg"),
-    name: "Dr Saad",
-    edu: "MBBS AIMC FCPS LGH",
+    name: "Dr. Saad Arsalan",
+    edu: "MBBS FCPS",
     disease: "Ophthalmologist",
     experince: "9 Years",
     slider:
@@ -115,7 +115,7 @@ export const data = [
   },
   {
     image: require("../../Asset/Drnewimages/Dr. Ghulam Yaseen.png"),
-    name: "Dr Ghulam Yaseen",
+    name: "Dr. Ghulam Yaseen",
     edu: "MBBS, FCPS",
     disease: "Child Specialist",
     experince: "30 Years",
@@ -124,11 +124,11 @@ export const data = [
     experince1:
       "A highly experienced Child Specialist with a proven 30 years of experience in the child healthcare. Dr. Ghulam is well-equipped with a solid foundation in medicine, holding MBBS degree from Quiad e-Azam Medical College and Diploma in Child Health (DCH) from Services Institute of Medical Sciences, university of Health Sciences, Lahore.",
     experince2:
-      "During his profound career he has served as Registrar Peads in Fatima Memorial Hospital Lahore, Medical officer in BHU District Kasur & District Lahore, Head of paeds in Services Hospital Lahore, Medical officer in Rural Health Center Manga Mandi, Mediacl Officer Sharif Mediacl City Hospital Lahore, MPH in Institute of Public Health Lahore, Emergency M.O. in Pak Red Crescent Medical and Dental College Dina Natth, Incharge Paediatrics & Neonatogy Bahria Intenational Hospital Lahore before joining MMFMH.",
+      "During his profound career he has served as Registrar Peads in Fatima Memorial Hospital Lahore, Medical officer in BHU District Kasur & District Lahore, Head of paeds in Services Hospital Lahore, Medical officer in Rural Health Center Manga Mandi, Medical Officer Sharif Medical City Hospital Lahore, MPH in Institute of Public Health Lahore, Emergency M.O. in Pak Red Crescent Medical and Dental College Dina Natth, Incharge Paediatrics & Neonatogy Bahria Intenational Hospital Lahore before joining MMFMH.",
   },
   {
     image: require("../../Asset/Drnewimages/Dr. Hassan.png"),
-    name: "Dr Hassan",
+    name: "Dr. Hassan",
     edu: "MBBS (KE), MCPS, (ENT)",
     disease: "ENT Specialist",
     experince: "50 Years",
@@ -142,8 +142,8 @@ export const data = [
       "He is hard-working, self-driven, inspiring and consistent towards his goals as a medical expert. His experience has proved him to be a most valuable medical practitioner for our hospital. ",
   },
   {
-    image: require("../../Asset/IMG-20230921-WA0008(1).jpg"),
-    name: "Dr Siddiq Akbar",
+    image: require("../../Asset/IMG-20230921-WA0008(1) (1).jpg"),
+    name: "Dr. Siddiq Akbar",
     edu: "MBBS, MRCGP, MCPS",
     disease: "General Physician ",
     experince: "17 Years",
