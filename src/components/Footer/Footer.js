@@ -41,7 +41,7 @@ const Footer = () => {
               }}
               to="/AboutMMFH"
             >
-              ABOUT US
+              About Us
             </Link>
             <Link
               style={{
@@ -52,7 +52,7 @@ const Footer = () => {
               }}
               to="/OurServices&Clinics"
             >
-              OUR SERVICES & CLINICS
+              Our Services & Clinics
             </Link>
             <Link
               style={{
@@ -63,7 +63,7 @@ const Footer = () => {
               }}
               to="/Donation"
             >
-              HOW TO DONATE
+              How To Donate
             </Link>
             <Link
               style={{
@@ -74,7 +74,7 @@ const Footer = () => {
               }}
               to="/ContactUs"
             >
-              CONTACT US
+              Contact Us
             </Link>
             <Link
               style={{
@@ -85,7 +85,7 @@ const Footer = () => {
               }}
               to="/JoinUs"
             >
-              JOIN US
+              Join Us
             </Link>
           </div>
           <div className="MultanRoad">
@@ -149,6 +149,7 @@ const Footer = () => {
           justifyContent: "center",
           paddingBottom: "3%",
           marginBottom: "-2%",
+          width: "40%",
         }}
       >
         @2023 MMFMH. All rights reserved. This website uses cookies to improve
