@@ -37,8 +37,15 @@
     height: 3px; /* Adjust the height as needed for your border */
     background-color: #993333;
   }
+  .Doctors-buttons{
+    display: flex;
+    margin-top: 5%;
+  }
   
   @media (max-width: 768px) {
+    .OurDoctors{
+        height: auto;
+    }
     .header-with-border{
         margin-top: 5%;
     }
@@ -48,8 +55,9 @@
         width: 100%;
         align-items: center;
         text-align: center;
-    
+        justify-content: center;
         
+    
     }
     .Profile img{
         width: 80%;
@@ -63,7 +71,12 @@
         
     }
     .OurDoctors{
-        height: 120vh;
+        height: auto;
+    }
+    .Doctors-buttons{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
     }
 
   }

@@ -17,7 +17,7 @@ const OurDoctors = ({ DoctorAllData }) => {
           <p style={{ color: "grey", marginTop: "7%" }}>
             {DoctorAllData.slider}
           </p>
-          <div style={{ marginTop: "5%", display: "flex" }}>
+          <div className="Doctors-buttons">
             <Link
               to="/DoctorsProfile"
               state={{ form: DoctorAllData }}

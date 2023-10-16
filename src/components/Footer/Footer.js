@@ -149,7 +149,8 @@ const Footer = () => {
           justifyContent: "center",
           paddingBottom: "3%",
           marginBottom: "-2%",
-          width: "40%",
+          marginLeft: "3%",
+          marginRight: "3%",
         }}
       >
         @2023 MMFMH. All rights reserved. This website uses cookies to improve

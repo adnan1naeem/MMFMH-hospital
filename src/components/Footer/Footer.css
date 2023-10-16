@@ -2,8 +2,6 @@
     margin-top: 2%;
     background-color: #d9d9d9;
     width: 100%;
-
-
     padding-top: 5%;
     padding-bottom: 2%;
 }
@@ -31,7 +29,7 @@
 .footer-all-things{
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 60%;
     margin-top: -4%;
 }
 .footer-link{
