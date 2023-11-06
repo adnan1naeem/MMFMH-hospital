@@ -34,7 +34,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Sana Malik.jpeg"),
     name: "Dr. Sana Malik",
-    designation: 'Medical Superintendent',
+  
     edu: "MBBS FCPS Medicine (R)",
     disease: "Diabetes, Hypertension, Liver and Stomach Diseases",
     experince: "8 Years",
@@ -49,7 +49,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Naima.jpg"),
     name: "Dr. Naima Ijaz",
-    designation: 'Medical Superintendent',
+  
     edu: "MBBS",
     disease: "General Physician",
     experince: "11 Years",
@@ -65,7 +65,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Saba Saqib.jpeg"),
     name: "Dr. Saba Saqib",
-    designation: 'Medical Superintendent',
+
     edu: "MBBS",
     disease: "Pediatrics",
     experince: "4 Years",
@@ -77,7 +77,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Nabeela Sohail.jpeg"),
     name: "Dr. Nabila Sohail",
-    designation: 'Medical Superintendent',
+
     edu: "MBBS",
     disease: "General Physician",
     experince: "22 Years",
@@ -91,7 +91,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Hifsa.jpeg"),
     name: "Dr. Hifza Akmal ",
-    designation: 'Medical Superintendent',
+  
     edu: "M.B.B.S, M.M.C.H, M.R.C.O.G, M.A.A",
     disease: "Gynecologist",
     experince: "29 Years",
@@ -108,7 +108,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Waqas.jpeg"),
     name: "Dr. Muhammad Waqas ",
-    designation: 'Medical Superintendent',
+
     edu: "M.B.B.S, FSPS 1 ,FCPS ORTHOPAEDICS,FCPS (Hand Surgery)",
     disease: "Orthopedics",
     experince: "13 Years",
@@ -124,7 +124,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Saad.jpeg"),
     name: "Dr. Saad Arsalan",
-    designation: 'Medical Superintendent',
+  
     edu: "MBBS FCPS",
     disease: "Ophthalmologist",
     experince: "9 Years",
@@ -138,7 +138,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Ghulam Yaseen.png"),
     name: "Dr. Ghulam Yaseen",
-    designation: 'Medical Superintendent',
+  
     edu: "MBBS, DCH",
     disease: "Child Specialist",
     experince: "30 Years",
@@ -153,7 +153,7 @@ export const data = [
     image: require("../../Asset/Drnewimages/Dr. Hassan.png"),
     name: "Dr. Hassan",
     edu: "MBBS (KE), MCPS, (ENT)",
-    designation: 'Medical Superintendent',
+
     disease: "ENT Specialist",
     experince: "50 Years",
     slider:
@@ -169,7 +169,7 @@ export const data = [
     image: require("../../Asset/IMG-20230921-WA0008(1) (1).jpg"),
     name: "Dr. Siddiq Akbar",
     edu: "MBBS, MRCGP, MCPS",
-    designation: 'Medical Superintendent',
+  
     disease: "General Physician ",
     experince: "17 Years",
     slider:

@@ -4,7 +4,6 @@ import Header from "../../components/Header/Header";
 import NavBar from "../../components/NavBar/NavBar";
 import doctor from "../../Asset/doctor.png";
 import Swiper from "../../components/Swiper/Swiper";
-import banner from "../../Asset/osr.png";
 import SliderDoctor from "../../components/OurDoctorSwiper/OurDoctorSwiper";
 import donate from "../../Asset/WhatsApp Image 2023-09-14 at 7.43.19 PM.jpg";
 import Footer from "../../components/Footer/Footer";

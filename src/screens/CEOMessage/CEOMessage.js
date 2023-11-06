@@ -3,7 +3,7 @@ import Header from "../../components/Header/Header";
 import NavBar from "../../components/NavBar/NavBar";
 import "./CEOMessage.css";
 import Footer from "../../components/Footer/Footer";
-import drAisha from "../../Asset/Dr Ayesha.jpg"
+import drAisha from "../../Asset/Dr Ayesha (1).jpg"
 const CEOMessage = () => {
   return (
     <div>
