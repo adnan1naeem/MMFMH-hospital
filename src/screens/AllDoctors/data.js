@@ -1,11 +1,11 @@
 export const data = [
   {
     image: require("../../Asset/Dr Ayesha.jpg"),
-    name : 'Dr. Aisha Ahmed',
+    name : 'Dr. Aisha Ahmad',
     edu : 'MBBS, FCPS',
     disease:"Dermatology",
     experince:'14 Years',
-    designation: 'CEO',
+    designation: 'Chief Executive Officer (CEO)',
     slider:'An oracle in the field of dermatology, Dr. Aisha Ahmed comes with an exemplary blend of education and expertise in dermatology & aesthetic practices. Having done her graduation from DOW Medical College Karachi and Certification in Dermatology & Aesthetic from the American Academy of Dermatology & Aesthetic, she is currently serving as the head of Dermatologist & Aesthetic Department of Mian Muhammad Fazal Memorial Hospital, Lahore.',
     experince1 :'An oracle in the field of dermatology, Dr. Aisha Ahmed comes with an exemplary blend of education and expertise in dermatology & aesthetic practices. Having done her graduation from DOW Medical College Karachi and Certification in Dermatology & Aesthetic from the American Academy of Dermatology & Aesthetic, she is currently serving as the head of Dermatologist & Aesthetic Department of Mian Muhammad Fazal Memorial Hospital, Lahore.',
     experince2 :'Dr. Aisha Ahmed has undergone extensive training under the country’s expert dermatologists at Jinnah Hospital, Lahore to become the best dermatologist in Lahore.',
@@ -109,7 +109,8 @@ export const data = [
     image: require("../../Asset/Drnewimages/Dr. Waqas.jpeg"),
     name: "Dr. Muhammad Waqas ",
 
-    edu: "M.B.B.S, FSPS 1 ,FCPS ORTHOPAEDICS,FCPS (Hand Surgery)",
+    edu: "M.B.B.S, FSPS 1 ,FCPS ORTHOPAEDICS,FCPS ",
+    surgery: "(Hand Surgery)",
     disease: "Orthopedics",
     experince: "13 Years",
     slider:

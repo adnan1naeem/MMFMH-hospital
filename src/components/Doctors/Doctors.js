@@ -13,6 +13,7 @@ const Doctors = ({ DoctorData }) => {
         <img className="DoctosImage" src={DoctorData.image} alt="dim" />
         <h3>{DoctorData.name}</h3>
         <p>{DoctorData.edu}</p>
+        <p style={{marginTop:'-5%'}}>{DoctorData.surgery}</p>
         <p className="docotormad">{DoctorData.disease}</p>
       </Link>
     </div>

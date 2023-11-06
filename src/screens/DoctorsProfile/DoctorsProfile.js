@@ -17,7 +17,7 @@ const DoctorsProfile = () => {
       <div className="Docotor-Details with-Doctor-name DrExperience">
         <img src={form?.image} alt="drimage" />
         <h1>{form?.name}</h1>
-        <h2>{form?.edu}</h2>
+        <h2>{form?.edu} {form?.surgery}</h2>
         <h2>Experience: {form?.experince}</h2>
         <h2>Field of Expertise: {form?.disease}</h2>
         <p style={{ marginTop: "4%" }}>{form?.experince1}</p>

@@ -17,7 +17,7 @@ const CEOMessage = () => {
           <div>
             <img src={drAisha} alt="dr ayesha" style={{width:'70%'}}/>     
             <h2 style={{ marginTop: "1%" }}>Dr. Aisha Ahmad</h2>
-            <p>CEO MMFMH</p>
+            <p> Chief Executive Officer (CEO) MMFMH</p>
           </div>
 
           <p>
