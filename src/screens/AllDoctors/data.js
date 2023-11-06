@@ -1,7 +1,22 @@
 export const data = [
   {
+    image: require("../../Asset/Dr Ayesha.jpg"),
+    name : 'Dr. Aisha Ahmed',
+    edu : 'MBBS, FCPS',
+    disease:"Dermatology",
+    experince:'14 Years',
+    designation: 'CEO',
+    slider:'An oracle in the field of dermatology, Dr. Aisha Ahmed comes with an exemplary blend of education and expertise in dermatology & aesthetic practices. Having done her graduation from DOW Medical College Karachi and Certification in Dermatology & Aesthetic from the American Academy of Dermatology & Aesthetic, she is currently serving as the head of Dermatologist & Aesthetic Department of Mian Muhammad Fazal Memorial Hospital, Lahore.',
+    experince1 :'An oracle in the field of dermatology, Dr. Aisha Ahmed comes with an exemplary blend of education and expertise in dermatology & aesthetic practices. Having done her graduation from DOW Medical College Karachi and Certification in Dermatology & Aesthetic from the American Academy of Dermatology & Aesthetic, she is currently serving as the head of Dermatologist & Aesthetic Department of Mian Muhammad Fazal Memorial Hospital, Lahore.',
+    experince2 :'Dr. Aisha Ahmed has undergone extensive training under the country’s expert dermatologists at Jinnah Hospital, Lahore to become the best dermatologist in Lahore.',
+    experince3 :'With her experience spanning over 14 years, and her unmatchable expertise in the field of Dermatology and Aesthetic, Dr. Aisha Ahmed promises complete competent treatments for all the skin related problems. She is a very concerned Doctor and gives ample time to all her patients irrespective of their status ensuring a complete solution for their problems.',
+    experince4 :'Besides being a competent professional, Dr. Aisha Ahmed is a very kind and amiable human being. She carefully listens and fully exhibits her friendly personality traits with each one of her patients. To achieve the clinic’s goal of delivering total quality service, she sincerely offers and explains all treatment options to her patients.',
+    experince5 :'Dr. Aisha Ahmed practices what she believes and is committed to provide the best Dermatology and Aesthetic Services to its patients.'
+  },
+  {
     image: require("../../Asset/Drnewimages/Dr. Shahzad.jpg"),
     name: "Dr. Shahzad Khurram",
+    designation: 'Medical Superintendent',
     edu: "MBBS ( pb), RPM, M.SC, AMA (QAU), M. S TQM (pb)",
     disease: "Diabetes, Hypertension",
     experince: "33 Years",
@@ -19,6 +34,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Sana Malik.jpeg"),
     name: "Dr. Sana Malik",
+    designation: 'Medical Superintendent',
     edu: "MBBS FCPS Medicine (R)",
     disease: "Diabetes, Hypertension, Liver and Stomach Diseases",
     experince: "8 Years",
@@ -33,6 +49,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Naima.jpg"),
     name: "Dr. Naima Ijaz",
+    designation: 'Medical Superintendent',
     edu: "MBBS",
     disease: "General Physician",
     experince: "11 Years",
@@ -48,6 +65,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Saba Saqib.jpeg"),
     name: "Dr. Saba Saqib",
+    designation: 'Medical Superintendent',
     edu: "MBBS",
     disease: "Pediatrics",
     experince: "4 Years",
@@ -59,6 +77,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Nabeela Sohail.jpeg"),
     name: "Dr. Nabila Sohail",
+    designation: 'Medical Superintendent',
     edu: "MBBS",
     disease: "General Physician",
     experince: "22 Years",
@@ -72,6 +91,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Hifsa.jpeg"),
     name: "Dr. Hifza Akmal ",
+    designation: 'Medical Superintendent',
     edu: "M.B.B.S, M.M.C.H, M.R.C.O.G, M.A.A",
     disease: "Gynecologist",
     experince: "29 Years",
@@ -88,6 +108,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Waqas.jpeg"),
     name: "Dr. Muhammad Waqas ",
+    designation: 'Medical Superintendent',
     edu: "M.B.B.S, FSPS 1 ,FCPS ORTHOPAEDICS,FCPS (Hand Surgery)",
     disease: "Orthopedics",
     experince: "13 Years",
@@ -103,6 +124,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Saad.jpeg"),
     name: "Dr. Saad Arsalan",
+    designation: 'Medical Superintendent',
     edu: "MBBS FCPS",
     disease: "Ophthalmologist",
     experince: "9 Years",
@@ -116,6 +138,7 @@ export const data = [
   {
     image: require("../../Asset/Drnewimages/Dr. Ghulam Yaseen.png"),
     name: "Dr. Ghulam Yaseen",
+    designation: 'Medical Superintendent',
     edu: "MBBS, DCH",
     disease: "Child Specialist",
     experince: "30 Years",
@@ -130,6 +153,7 @@ export const data = [
     image: require("../../Asset/Drnewimages/Dr. Hassan.png"),
     name: "Dr. Hassan",
     edu: "MBBS (KE), MCPS, (ENT)",
+    designation: 'Medical Superintendent',
     disease: "ENT Specialist",
     experince: "50 Years",
     slider:
@@ -145,6 +169,7 @@ export const data = [
     image: require("../../Asset/IMG-20230921-WA0008(1) (1).jpg"),
     name: "Dr. Siddiq Akbar",
     edu: "MBBS, MRCGP, MCPS",
+    designation: 'Medical Superintendent',
     disease: "General Physician ",
     experince: "17 Years",
     slider:

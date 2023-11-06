@@ -1,7 +1,5 @@
 import React from "react";
-import profile from "../../Asset/images.png";
 import "./OurDoctors.css";
-import { BsFillPlayCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const OurDoctors = ({ DoctorAllData }) => {
@@ -14,7 +12,10 @@ const OurDoctors = ({ DoctorAllData }) => {
         <img src={DoctorAllData.image} alt="profile" />
         <div className="docotr-list">
           <h1 style={{ color: "#993333" }}>{DoctorAllData.name}</h1>
-          <p style={{ color: "grey", marginTop: "7%" }}>
+          <p style={{ color: "#993333", fontWeight: 700,marginTop:'-2%' }}>
+           {DoctorAllData.designation}
+          </p>
+          <p style={{ color: "grey", marginTop: "5%" }}>
             {DoctorAllData.slider}
           </p>
           <div className="Doctors-buttons">

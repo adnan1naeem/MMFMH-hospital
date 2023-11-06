@@ -1,7 +1,5 @@
 import React from "react";
 import logo from "../../Asset/logo/logo.png";
-import Home from "../../screens/Home/Home";
-
 import { Link } from "react-router-dom";
 import {
   FaSearch,

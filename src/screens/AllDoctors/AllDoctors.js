@@ -5,7 +5,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import "./AllDoctors.css";
 import { data } from "./data";
 import Footer from "../../components/Footer/Footer";
-import { Link } from "react-scroll";
+
 const AllDoctors = () => {
   return (
     <div>

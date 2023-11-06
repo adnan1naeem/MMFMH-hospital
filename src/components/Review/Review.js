@@ -1,7 +1,6 @@
 import React from "react";
 import background from "../../Asset/04.png";
 import "./Review.css";
-import patient from "../../Asset/Landing page/patient 1.jpeg";
 const Review = (props) => {
   return (
     <div className="All-Review">
@@ -11,7 +10,7 @@ const Review = (props) => {
           <p>{props.paragraph}</p>
         </div>
         <div className="image-over">
-          <img src={props.patientImage} />
+          <img src={props.patientImage}  alt="im"/>
         </div>
       </div>
     </div>

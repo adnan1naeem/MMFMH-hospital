@@ -21,7 +21,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
     margin-top: 0.5%;
 
   }
@@ -30,12 +29,12 @@
   }
   
   .centered-image {
-    max-width: 100%; /* Ensure the image scales down responsively */
-    max-height: 100%; /* Ensure the image scales down responsively */
-    height: auto;
-    width: auto;
+    width: 100%;
+  height: auto;
+  display: block;
    
   }
+  
 
 @media (max-width: 768px) {
     .Home-Hospital{

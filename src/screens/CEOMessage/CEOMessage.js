@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import NavBar from "../../components/NavBar/NavBar";
 import "./CEOMessage.css";
 import Footer from "../../components/Footer/Footer";
+import drAisha from "../../Asset/Dr Ayesha.jpg"
 const CEOMessage = () => {
   return (
     <div>
@@ -14,7 +15,8 @@ const CEOMessage = () => {
             <h2>Doctor Ayesha</h2>
           </div> */}
           <div>
-            <h2 style={{ marginTop: "1%" }}>Dr. Ayesha Ahmad</h2>
+            <img src={drAisha} alt="dr ayesha" style={{width:'70%'}}/>     
+            <h2 style={{ marginTop: "1%" }}>Dr. Aisha Ahmad</h2>
             <p>CEO MMFMH</p>
           </div>
 

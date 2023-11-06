@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./DoctorsProfile.css";
 import Header from "../../components/Header/Header";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
-import drimage from "../../Asset/DoctorsPicturesJpegs/Dr. Saad.png";
 import { useLocation } from "react-router-dom";
-import { FaRoad } from "react-icons/fa";
+
 
 const DoctorsProfile = () => {
   const location = useLocation();
@@ -25,6 +24,7 @@ const DoctorsProfile = () => {
         <p>{form?.experince2}</p>
         <p>{form?.experince3}</p>
         <p>{form?.experince4}</p>
+        <p>{form?.experince5}</p>
       </div>
       <Footer />
     </div>

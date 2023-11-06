@@ -1,6 +1,6 @@
 import React from "react";
 import "./Doctors.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import dim from "../../Asset/Doctors Pictures Jpegs/Dr Sana Malik.png";
 const Doctors = ({ DoctorData }) => {
   return (

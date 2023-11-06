@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import logo from "../../Asset/logo/logo.png";
 
 import "./Footer.css";

@@ -10,8 +10,8 @@ import donate from "../../Asset/WhatsApp Image 2023-09-14 at 7.43.19 PM.jpg";
 import Footer from "../../components/Footer/Footer";
 import ImportantFacts from "../../components/ImportantFacts/ImportantFacts";
 import { Link } from "react-router-dom";
-import Review from "../../components/Review/Review";
 import AllReview from "../../components/AllReview/AllReview";
+import BannerHomeImage from "./BannerHomeImage";
 const Home = () => {
   return (
     <div>
@@ -37,22 +37,27 @@ const Home = () => {
             Mian Muhammad Fazal Memorial Hospital
           </h2>
           <p style={{ color: "grey" }}>
-            The MMFMH - Mian Muhammad Fazal Memorial Hospital is developed with
-            the vision to provide free of cost quality healthcare facilities to
-            the poor irrespective of cast, creed and religion. The hospital,
-            under the supervision of best medical practitioners, is offering
-            free of cost medicines, pathology and radiology lab tests for the
-            diagnosis and treatment of the patients.
+            Please change text to below given text: The MMFMH - Mian Muhammad
+            Fazal Memorial Hospital is developed with the vision to provide free
+            of cost quality healthcare facilities to the poor irrespective of
+            cast, creed and religion. The hospital, under the supervision of
+            best medical practitioners, is offering its patients free of cost
+            medical assistance and medicines whereas pathology and radiology lab
+            tests are performed at a very nominal charges.
           </p>
         </div>
       </div>
-      <Link
+      <Link to="/OurServices&Clinics" style={{textDecoration:'none'}}>
+      <BannerHomeImage/>
+      </Link>
+    
+      {/* <Link
         className="image-container"
         to="/OurServices&Clinics"
         style={{ textDecoration: "none" }}
       >
-        <img src={banner} alt="banner" className="centered-image" />
-      </Link>
+        <img  src={banner} alt="banner" className="centered-image" />
+      </Link> */}
       <div style={{ marginTop: "-4%" }} className="Dr-slider">
         <SliderDoctor />
       </div>
@@ -63,10 +68,9 @@ const Home = () => {
       <div style={{ marginTop: "1%" }}>
         <Link to="/Donation">
           {" "}
-          <img className="donate" style={{ width: "100%" }} src={donate} />
+          <img className="donate" style={{ width: "100%" }} src={donate}  alt=""/>
         </Link>
       </div>
-
       <div>
         <Footer />
       </div>

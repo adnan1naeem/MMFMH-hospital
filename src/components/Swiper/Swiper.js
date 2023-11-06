@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
-import { GrPrevious, GrNext } from "react-icons/gr";
 import slider_1 from "../../Asset/main-2.jpg";
 function Slider() {
   const slider = [slider_1];
