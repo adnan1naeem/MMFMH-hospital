@@ -31,7 +31,7 @@ const Managment = () => {
             </p>
           </div>
           <div className="allmanagment">
-            <h2 style={{color: "#993333"}}>The Managment</h2>
+            <h2 style={{color: "#993333"}}>The Management</h2>
             <p style={{marginTop:'6%'}} >
               Since its inception MMFMH is being fully funded by Orient
               Electronics (Pvt.) Ltd., which is a part of Orient Group of

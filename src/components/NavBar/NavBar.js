@@ -61,7 +61,7 @@ const NavBar = () => {
                   Philosophy
                 </Link>
                 <Link className="dropdown-item" to="/managment">
-                  Managment
+                Management
                 </Link>
                 <Link className="dropdown-item" to="/CEOMessage">
                   CEO Message
