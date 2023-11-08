@@ -1,0 +1,31 @@
+.Managment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.fazal-side-founder{
+    margin-top: 15%;
+    width: 25%;
+}
+.allmanagment p{
+    margin-top: 2%;
+    color: grey;
+}
+.allmanagment{
+    width: 65%;
+}
+@media screen and (max-width: 680px) {
+    .Managment{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fazal-side-founder{
+        margin-top: 5%;
+        width: 60%;
+    }
+    .allmanagment{
+        width: 95%;
+    }
+  }

@@ -60,12 +60,16 @@ const NavBar = () => {
                   Vision, Mission &<br />
                   Philosophy
                 </Link>
+                <Link className="dropdown-item" to="/managment">
+                  Managment
+                </Link>
                 <Link className="dropdown-item" to="/CEOMessage">
                   CEO Message
                 </Link>
                 <Link className="dropdown-item" to="/acts&Stats">
                   Facts & Stats
                 </Link>
+
               </div>
             </li>
             <li className="nav-item active">

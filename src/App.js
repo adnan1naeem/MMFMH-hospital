@@ -22,6 +22,7 @@ import AllDoctors from "./screens/AllDoctors/AllDoctors";
 import DoctorsProfile from "./screens/DoctorsProfile/DoctorsProfile";
 import { useLayoutEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
+import Managment from "./screens/Managment/Managment";
 function App() {
   const Wrapper = ({ children }) => {
     const location = useLocation();
@@ -51,6 +52,7 @@ function App() {
             <Route path="/Donation" element={<Donations />} />
             <Route path="/AllDoctors" element={<AllDoctors />} />
             <Route path="/DoctorsProfile" element={<DoctorsProfile />} />
+            <Route path="/managment" element={<Managment/>}></Route>
           </Routes>
         </Wrapper>
       </Router>

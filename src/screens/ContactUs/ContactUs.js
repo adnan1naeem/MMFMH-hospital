@@ -34,7 +34,7 @@ const ContactUs = () => {
             </div>
             <div className="ContactMMFHNumbersAll email">
               <h3>Email</h3>
-              <p>info@mmfmh.org</p>
+              <p>adil.k@orient.com.pk</p>
             </div>
           </div>
           <div
